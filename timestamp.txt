@@ -1,0 +1,85 @@
+time stamps
+4:45--header
+
+4:52--footer
+
+5:00--home
+
+5:7--product card
+
+5:18-- metadata
+
+5:20--store,constant,reducer,action
+
+5:36 --proxy
+
+5:42 --product fetched from store successfully and displayed on home screen
+
+5:47 --loader ka kaam
+
+5:52 -- reactalert in index .js,home.js
+
+5:53-- product details -- reducer constant actions products
+
+6:3 --product details page
+
+6:26--review card
+
+6:35 --products page
+
+6:42 --search button
+
+6:50 --pagination
+
+7:00--price filter
+
+7:6 --filteredproductcount(productcontroller,reducer,products),ratings,categories
+
+7:26 --login
+
+8:00--cloudinary
+
+8:20--profile page
+
+8:50--upate profile
+
+9:00-update password
+
+9:20--forgot password
+
+9:45--cartt
+
+10:3 TAK CART DONE
+
+11:00 shippingdone...order confirm start hogaya
+
+11:10 processpayement
+
+11: 33 payment.js
+
+12:11 reviews new
+
+12:52 admin route in protecetdroute.js
+
+13:37 newproduxt.js
+cd .\frontend
+npx create-react-app .
+npm start
+npm i axios react-alert react-alert-template-basic react-helmet react-redux redux redux-thunk redux-devtools-extension react-router-dom overlay-navbar
+
+
+npm i webfontloader
+npm i react-rating-stars-component
+npm i react-icons
+npm install react-material-ui-carousel --save
+npm i  @mui/material @mui/icons-material @mui/styles    
+npm install react-material-ui-carousel@v2 --save
+npm i  @material-ui/core @material-ui/icons
+npm i react-js-pagination
+
+
+to do
+in payement route .js and payement ----/process/payment
+mene App.js me axios ko use nahikiya inseata od the stripe api
+
+react star mene change kiya toratingso uska options thoda dekhle

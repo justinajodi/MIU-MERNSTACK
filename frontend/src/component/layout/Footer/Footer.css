@@ -1,0 +1,80 @@
+footer {
+    margin-top: 70vmax;
+    padding: 2vmax;
+    background-image: url("D:/MERN PROJECT/frontend/src/images/footer_waves.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .leftFooter {
+    width: 20%;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftFooter > h4 {
+    font-family: "Poppins";
+    font-size: 1vmax;
+  }
+  .leftFooter > p {
+    text-align: center;
+    font-size: 1.2vmax;
+    font-family: "Poppins";
+  }
+  .leftFooter > img {
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+  }
+  
+  .midFooter {
+    width: 60%;
+
+    text-align: center;
+  }
+  
+  .midFooter > h1 {
+    
+    font: 4vmax "Poppins";
+    font-weight: bolder;
+    color: #f35963;
+  }
+  .midFooter > p {
+    max-width: 60%;
+    font-family: "Poppins";
+    font-size:1vmax;
+    margin: 0.5vmax auto;
+  }
+  
+  .rightFooter {
+    width: 20%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightFooter > h4 {
+    font-family: "Poppins";
+    font-size: 1.4vmax;
+
+  }
+  .rightFooter > a {
+
+    text-decoration: none;
+    font-size: 1.3vmax;
+    font-family: "Poppins";
+    font-weight: bolder;
+    color: white;
+    transition: all 0.5s;
+    margin: 0.5vmax;
+  }
+  
+  .rightFooter > a:hover {
+    color: #e7525c;
+    transform: scale(1.1);
+  }

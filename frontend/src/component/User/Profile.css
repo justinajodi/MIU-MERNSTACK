@@ -1,0 +1,148 @@
+.profileContainer{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    max-width: 100%;
+    position: fixed;
+    left: 0;
+    background-color: white;
+}
+
+.profileContainer > div {
+    height: 100vh;
+    display: flex;
+    max-width: 100%;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileContainer > div:first-child > h1 {
+    color: gray;
+    font: 500 2.2vmax "Poppins";
+    transform: translateX(-10vmax) translateY(-2vmax);
+}
+
+.profileContainer > div:first-child > img {
+    width: 20vmax;
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+
+.profileContainer > div:first-child > img:hover {
+    transform: scale(1.05);
+}
+
+.profileContainer > div:first-child > a {
+    border: none;
+    font: bolder 1vmax "Poppins";
+    background-color: rgb(255, 91, 102);
+    color: white;
+    margin: 4vmax;
+    text-align: center;
+    transition: all 0.5s;
+    width: 30%;
+    padding: 0.5vmax;
+    text-decoration: none;
+}
+
+.profileContainer > div:first-child > a:hover {
+    background-color: rgb(255, 91, 102);
+}
+
+.profileContainer > div:last-child {
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding: 5vmax;
+    align-items: flex-start;
+}
+
+.profileContainer > div:last-child > div > h4 {
+    color: darkslategray;
+    font: bolder 1.2vmax "Poppins";
+}
+
+.profileContainer > div:last-child > div > p {
+    color: gray;
+    margin: 0.2vmax;
+    font: bolder 1vmax "Poppins";
+}
+
+.profileContainer > div:last-child > div:last-child {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.profileContainer > div:last-child > div:last-child > a {
+    font: bolder 1vmax "Poppins";
+    background-color:rgb(255, 91, 102) ;
+    color: white;
+    margin: 1vmax 0;
+    text-align: center;
+    transition: all 0.5s;
+    padding: 0.5vmax;
+    text-decoration: none;
+    border-radius:5px;
+    border-width: 2px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 91, 102) ;
+    font-weight: bold;
+
+}
+
+.profileContainer > div:last-child > div:last-child > a:hover {
+    background-color: rgb(255, 255, 255);
+    color:rgb(255, 91, 102) ;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .profileContainer {
+        flex-direction: column;
+    }
+
+    .profileContainer > div:first-child > h1 {
+        font: 500 3.2vmax "Poppins";
+        transform: translateY(-2vmax);
+    }
+
+    .profileContainer > div:first-child > a {
+        font: bolder 1.7vmax "Poppins";
+        padding: 1vmax;
+    }
+
+    .profileContainer > div:last-child {
+        text-align: center;
+        align-items: center;
+    } 
+
+
+    .profileContainer > div:last-child > div > h4 {
+        font: bolder 2.5vmax "Poppins";
+    }
+
+    .profileContainer > div:last-child > div > p {
+        font: bolder 2vmax "Poppins";
+        margin: 0.5vmax 0;
+    }
+
+    .profileContainer > div:last-child > div:last-child > a {
+        font:400 1.8vmax "Poppins";
+        padding: 1vmax;
+        margin: 2vmax 0;
+    }
+
+
+
+
+
+
+
+
+    
+}

@@ -1,0 +1,182 @@
+.emptyCart {
+    margin: auto;
+    text-align: center;
+    padding: 10vmax;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .emptyCart > svg {
+    font-size: 5vmax;
+    color: rgb(249, 88, 106);
+  }
+  .emptyCart > p {
+    font-size: 2vmax;
+  }
+  .emptyCart > a {
+    background-color: rgb(249, 88, 106);
+    color: white;
+    border: none;
+    border-radius: 2vmax;
+    padding: 1vmax 3vmax;
+    cursor: pointer;
+    font: bold 1vmax "Poppins";
+    text-decoration: none;
+    transition:.3s ease-in-out;
+  }
+  .emptyCart > a:hover {
+    transform: scale(1.1);
+  }
+  .cartPage {
+    padding: 5vmax;
+  }
+  
+  .cartHeader {
+    background-color: rgb(249, 88, 106);
+    width: 90%;
+    box-sizing: border-box;
+    margin: auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    font: bold 0.7vmax "Montserrat";
+  }
+  .cartHeader > p {
+    margin: 10px;
+  }
+  .cartHeader > p:last-child {
+    text-align: end;
+  }
+  
+  .cartContainer {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+  }
+  
+  .cartInput {
+    display: flex;
+    align-items: center;
+    height: 8vmax;
+  }
+  
+  .cartInput > button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 0.5vmax;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+  }
+  .cartInput > button:hover {
+    background-color: rgba(0, 0, 0, 0.767);
+  }
+  
+  .cartInput > input {
+    border: none;
+    padding: 0.5vmax;
+    width: 1vmax;
+    text-align: center;
+    outline: none;
+    font: bolder 0.8vmax "Montserrat";
+    color: rgba(0, 0, 0, 0.74);
+  }
+  
+  .cartSubtotal {
+    display: flex;
+    padding: 0.5vmax;
+    height: 8vmax;
+    align-items: center;
+    box-sizing: border-box;
+    font: bold 1vmax "Poppins";
+    justify-content: flex-end;
+    color: rgba(0, 0, 0, 0.753);
+  }
+  
+  .cartGrossProfit {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+  }
+  
+  .cartGrossProfitBox {
+    border-top: 3px solid rgb(249, 88, 106);
+    margin: 1vmax 4vmax;
+    box-sizing: border-box;
+    padding: 2vmax 0;
+    font: bold 1vmax "Montserrat";
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .checkOutBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .checkOutBtn > button {
+    background-color: rgb(249, 88, 106);
+    color: white;
+    border: none;
+    padding: 0.8vmax 4vmax;
+    width: 50%;
+    font: bold 0.8vmax "Montserrat";
+    margin: 1vmax 4vmax;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .cartPage {
+      padding: 0;
+      min-height: 60vh;
+    }
+  
+    .cartHeader {
+      width: 100%;
+      font: bold 1.7vmax "Montserrat";
+      grid-template-columns: 3fr 1fr 1fr;
+    }
+  
+    .cartContainer {
+      width: 100%;
+      grid-template-columns: 3fr 1fr 1fr;
+    }
+  
+    .cartInput {
+      height: 20vmax;
+    }
+  
+    .cartInput > button {
+      padding: 1.5vmax;
+    }
+  
+    .cartInput > input {
+      width: 2vmax;
+      padding: 1.5vmax;
+      font: bolder 1.8vmax "Montserrat";
+    }
+  
+    .cartSubtotal {
+      padding: 1.5vmax;
+      height: 20vmax;
+      font: bold 2vmax "Montserrat";
+    }
+  
+    .cartGrossProfit {
+      display: grid;
+      grid-template-columns: 0fr 2fr;
+    }
+  
+    .cartGrossProfitBox {
+      padding: 2vmax;
+      font: bold 2vmax "Montserrat";
+    }
+  
+    .checkOutBtn > button {
+      padding: 2vmax 4vmax;
+      width: 100%;
+      font: bold 2vmax "Montserrat";
+    }
+  }
